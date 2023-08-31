@@ -1,31 +1,27 @@
-.scroll-slide-box.video-box {
-    height: fit-content;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0;
-    overflow-x: scroll;
+.scrollable-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: grab;
 }
 
-.slide-box.video-box {
+.scroll-box {
+    display: flex;
+    gap: 15px;
     height: fit-content;
-    margin: 0;
-    padding: 0;
-    gap: 10px;
 }
 
 .video {
+    cursor: pointer;
     width: 191px;
     border: 1px solid white;
     border-radius: 10px;
 }
 
-@media screen and (max-width:620px) {
-    .scroll-slide-box.video-box {
-        height: fit-content;
-        width: 100%;
-    }
-    .slide-box.video-box {
-        padding-left: 10px;
-        padding-right: 10px;
+@media screen and (max-width:1710px) {
+    .scrollable-container {
+        justify-content: left;
     }
 }

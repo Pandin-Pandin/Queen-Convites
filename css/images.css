@@ -1,0 +1,102 @@
+.box-img {
+    height: 340px;
+    width: 191px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: all 200ms;
+    background-size: 191px 340px;
+    background-repeat: no-repeat;
+}
+
+.b-1 {
+    background-image: url('../img/b-1.jpg');
+}
+
+.b-2 {
+    background-image: url('../img/b-2.jpg');
+}
+
+.b-3 {
+    background-image: url('../img/b-3.jpg');
+}
+
+.b-4 {
+    background-image: url('../img/b-4.jpg');
+}
+
+.b-5 {
+    background-image: url('../img/b-5.jpg');
+}
+
+.b-6 {
+    background-image: url('../img/b-6.jpg');
+}
+
+.b-7 {
+    background-image: url('../img/b-6.jpg');
+}
+
+.i-1 {
+    background-image: url('../img/i-1.jpg');
+}
+
+.i-2 {
+    background-image: url('../img/i-2.jpg');
+}
+
+.i-3 {
+    background-image: url('../img/i-3.png');
+}
+
+.i-4 {
+    background-image: url('../img/i-4.jpg');
+}
+
+.i-5 {
+    background-image: url('../img/i-5.png');
+}
+
+.i-6 {
+    background-image: url('../img/i-6.png');
+}
+
+.bigger {
+    width: 243px;
+    background-size: contain;
+}
+
+.bigger.small {
+    width: 240px;
+}
+
+.bigger.small.two {
+    width: 238px;
+}
+
+.l-1 {
+    background-image: url('../img/l-1.png');
+}
+
+.l-2 {
+    background-image: url('../img/l-2.png');
+}
+
+.l-3 {
+    background-image: url('../img/l-3.jpg');
+}
+
+.l-4 {
+    background-image: url('../img/l-4.png');
+}
+
+.l-5 {
+    background-image: url('../img/l-5.jpg');
+}
+
+.l-6 {
+    background-image: url('../img/l-6.png');
+}
+
+.l-7 {
+    background-image: url('../img/l-7.png');
+}
