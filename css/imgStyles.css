@@ -1,0 +1,160 @@
+/* FIRST LINE */
+
+.first:nth-child(1) {
+    background-image: url("../img/line_one/b-1.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first:nth-child(2) {
+    background-image: url("../img/line_one/b-2.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first:nth-child(3) {
+    background-image: url("../img/line_one/b-3.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first:nth-child(4) {
+    background-image: url("../img/line_one/b-4.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first:nth-child(5) {
+    background-image: url("../img/line_one/b-5.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first:nth-child(6) {
+    background-image: url("../img/line_one/b-6.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first:nth-child(7) {
+    background-image: url("../img/line_one/b-7.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first:nth-child(8) {
+    background-image: url("../img/line_one/b-8.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first:nth-child(9) {
+    background-image: url("../img/line_one/b-9.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.first:nth-child(10) {
+    background-image: url("../img/line_one/b-10.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* SECOND LINE */
+
+.second:nth-child(1) {
+    background-image: url("../img/line_two/c-1.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 238px;
+}
+
+.second:nth-child(2) {
+    background-image: url("../img/line_two/c-2.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 240px;
+    
+}
+
+.second:nth-child(3) {
+    background-image: url("../img/line_two/c-3.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 243px;
+}
+
+.second:nth-child(4) {
+    background-image: url("../img/line_two/c-4.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 243px;
+}
+
+.second:nth-child(5) {
+    background-image: url("../img/line_two/c-5.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 243px;
+}
+
+.second:nth-child(6) {
+    background-image: url("../img/line_two/c-6.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* THIRD LINE */
+
+.third:nth-child(1) {
+    background-image: url("../img/line_three/d-1.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 213px;
+}
+
+.third:nth-child(2) {
+    background-image: url("../img/line_three/d-2.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 218px;
+}
+
+.third:nth-child(3) {
+    background-image: url("../img/line_three/d-3.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 227px;
+}
+
+.third:nth-child(4) {
+    background-image: url("../img/line_three/d-4.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 218px;
+}
+
+/* FOUR LINE */
+
+.four:nth-child(1) {
+    background-image: url("../img/line_four/e-1.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 240px;
+}
+
+.four:nth-child(2) {
+    background-image: url("../img/line_four/e-2.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 250px;
+    
+}
+
+.four:nth-child(3) {
+    background-image: url("../img/line_four/e-3.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 219px;
+}

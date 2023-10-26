@@ -1,0 +1,62 @@
+
+.fake-box {
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 white;
+    border: 0;
+}
+
+.box-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    background-color: rgb(18, 18, 18);
+}
+
+.links {
+    margin-left: 40px;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    user-select: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.home,
+.products,
+.social,
+.about {
+    cursor: pointer;
+}
+
+.home:hover,
+.products:hover,
+.social:hover,
+.about:hover {
+    color: var(--color-one);
+}
+
+.box-top .profile {
+    background-color: black;
+    cursor: pointer;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("../img/favicon.webp");
+    background-size: 180%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+}

@@ -1,108 +1,120 @@
-.prices {
-    margin-top: 10px;
-    width: 100%;
+.main-two>p {
+    height: 140px;
+    width: 300px;
+    background-image: url("../img/prices/title_prices.webp");
+    background-position: center;
+    background-size: contain;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.grid-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 50px;
 }
 
-.prices .title {
-    height: 160px;
-    width: 380px;
-    background-image: url('../img/title_prices.png');
-    background-size: contain;
-    border-radius: 5px;
-    background-repeat: no-repeat;
-    border: 1px solid white;
-}
-
-.table {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
-}
-
-.table a {
-    text-decoration: none;
-}
-
-
-.name-prices {
-    z-index: -1;
+.prices {
     position: relative;
-    border: 1px solid white;
-    height: 117px;
-    width: 350px;
-    background-image: url('../img//prices_table.png');
-    background-size: contain;
-    border-radius: 5px;
+    height: 170px;
+    width: 500px;
+    background-position: center;
+    border-radius: 10px;
     background-repeat: no-repeat;
 }
 
+.prices:nth-child(1) {
+    background-image: url("../img/prices/prices_table.webp");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
 
-.names {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.181);
-    height: 105.8px;
-    width: 157px;
-    top: 3px;
-    left: 36px;
+.columns {
+    height: 100%;
+    width: 81%;
     display: flex;
     flex-direction: column;
-    gap: 13.8px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF5E9;
+    border-radius: 10px;
 }
 
-.names-box {
-    position: relative;
-    height: 10px;
-    width: 40px;
-}
-
-.names-box:nth-child(1) {
-    background-color: rgba(255, 255, 255, 0.729);
-    width: 126.2px;
-}
-
-.names-box:nth-child(2) {
-    background-color: rgba(150, 60, 60, 0.729);
+.column {
+    height: 95%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* filter: opacity(0.2); */
 }
 
-.names-box:nth-child(3) {
-    background-color: rgba(60, 117, 150, 0.729);
-    width: 139.7px;
+.column:nth-child(1) {
+    margin-left: 10%;
 }
 
-.names-box:nth-child(4) {
-    background-color: rgba(255, 255, 255, 0.729);
-    width: 58.2px;
+.column:nth-child(2) {
+    margin-right: 10.2%;
 }
 
-.names-box:nth-child(5) {
-    background-color: rgba(150, 60, 60, 0.729);
-    width: 143px;
-}
-
-.table-prices {
-    z-index: -1;
-    position: relative;
-    border: 1px solid white;
-    height: 131px;
-    width: 350px;
-    background-image: url('../img/info_prices.png');
-    background-size: contain;
+.links-btn {
+    text-decoration: none;
+    height: fit-content;
+    color: rgb(56, 55, 37);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
     border-radius: 5px;
-    background-repeat: no-repeat;
 }
 
-@media screen and (max-width:743px) {
-    .table {
-        display: grid;
-        grid-template-areas: 
-        "a"
-        "b";
+.links-btn>p:first-child {
+    padding-left: 1%;
+}
+
+.links-btn>p:last-child {
+    padding-right: 1%;
+}
+
+.links-btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.104);
+}
+
+.prices:nth-child(2) {
+    background-image: url("../img/prices/info_prices.webp");
+    background-size: contain;
+    height: 190px;
+}
+
+.prices:nth-child(3) {
+    background-image: url("../img/prices/further_info_prices.webp");
+    background-size: contain;
+    height: 190px;
+}
+
+@media screen and (max-width:516px)  {
+    .main-two>p {
+        height: 120px;
+        width: 280px;
+    }
+    
+    .prices {
+        height: 140px;
+        width: 420px;
+    }
+    
+    .prices:nth-child(2), .prices:nth-child(3) {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width:436px) {
+    .prices {
+    height: 122px;
+    width: 370px;
+    }
+    .prices:nth-child(2), .prices:nth-child(3) {
+        height: 140px;
     }
 }

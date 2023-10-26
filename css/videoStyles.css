@@ -1,0 +1,18 @@
+video.img {
+    border: none;
+}
+
+.video {
+    height: 340px;
+    width: 191px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: all 200ms;
+    background-size: 191px 340px;
+    background-repeat: no-repeat;
+}
+
+.video:nth-child(2) {
+    width: 350px;
+    height: fit-content;
+}
