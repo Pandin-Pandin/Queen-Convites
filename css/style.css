@@ -109,7 +109,7 @@ span {
     width: max-content;
 }
 
-.oculto {
+.disable {
     display: none;
 }
 
@@ -130,6 +130,61 @@ span {
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    justify-content: center;
+    padding: 3% 0 3%  0;
+    gap: 5%;
+}
+
+.links-about {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1fr;
+    gap: 0.5rem;
+}
+
+.links-about>a {
+    text-decoration: none;
+}
+
+.links-about>a:hover {
+    filter: brightness(2.0);
+}
+
+.links-about:nth-child(1)>a:nth-child(1) {
+    color: white;
+}
+
+.links-about:nth-child(1)>a:nth-child(2) {
+    color: rgb(0, 110, 255);
+}
+
+.links-about:nth-child(1)>a:nth-child(3) {
+    color: gray;
+}
+
+.links-about.two>a:nth-child(1) {
+    color: rgb(2, 147, 196);
+}
+
+.links-about.two>a:nth-child(2) {
+    color: rgb(0, 173, 23);
+}
+
+.links-about.two>a:nth-child(3) {
+    color: rgb(128, 128, 128);
+}
+
+.introdution {
+    max-width: 400px;
+    text-align: center;
 }
 
 @media screen and (min-width: 800px) {

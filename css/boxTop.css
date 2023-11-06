@@ -16,9 +16,47 @@
     justify-content: space-between;
     border-bottom: 1px solid white;
     background-color: rgb(18, 18, 18);
+    z-index: 1;
+}
+
+.menu {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 30px;
+    width: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgba(255, 234, 0, 0.673);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.2px);
+    -webkit-backdrop-filter: blur(3.2px);
+    border: 1px solid rgba(255, 234, 0, 0.121);
+}
+
+.menu:active {
+    scale: 1.2;
+}
+
+.line {
+    width: 90%;
+    height: 20%;
+    border-radius: 1rem;
+    background-color: white;
+    transition: all 200ms;
+}
+
+.menu:hover>.line {
+    background: rgb(255, 234, 0);
 }
 
 .links {
+    position: relative;
     margin-left: 40px;
     height: 100%;
     width: fit-content;
@@ -38,6 +76,7 @@
 .social,
 .about {
     cursor: pointer;
+    transition: all 300ms;
 }
 
 .home:hover,
@@ -48,9 +87,10 @@
 }
 
 .box-top .profile {
+    position: absolute;
+    right: 10px;
     background-color: black;
     cursor: pointer;
-    margin-right: 20px;
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -59,4 +99,72 @@
     background-position: center;
     background-repeat: no-repeat;
     border: 1px solid white;
+}
+
+@media screen and (max-width: 390px) {
+    .menu {
+        display: flex;
+    }
+
+    .links {
+        margin-left: -100%;
+        padding: 10px 10px 10px 10px;
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        user-select: none;
+        border-radius: 5px 5px 16px 5px;
+        /* From https://css.glass */
+        background: rgba(255, 234, 0, 0.673);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.2px);
+        -webkit-backdrop-filter: blur(3.2px);
+        border: 1px solid rgba(255, 234, 0, 0.121);
+        transition: all 500ms;
+    }
+    
+    .close {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        cursor: pointer;
+        border: 2px solid white;
+    }
+    
+    .close>
+    .line {
+        position: absolute;
+        transform: all 200ms;
+    }
+    
+    .close:hover>
+    .line {
+        background-color: rgb(255, 255, 105);
+    }
+    
+    .close>
+    .line:nth-child(1) {
+        transform: rotate(45deg);
+    }
+    
+    .close>
+    .line:nth-child(2) {
+        transform: rotate(-45deg);
+    }
+    
+    .show {
+        margin-left: 0;
+    }
+    
+    .disable {
+        display: none;
+    }
 }

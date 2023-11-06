@@ -1,5 +1,14 @@
+:root {
+    --color-one: #FEDA00;
+    --color-two: #FFA300;
+    --color-three: #D94E2D;
+    --color-four: #7B2601;
+    --color-five: #270D00;
+}
+
+
 .main-two>p {
-    height: 140px;
+    height: 130px;
     width: 300px;
     background-image: url("../img/prices/title_prices.webp");
     background-position: center;
@@ -16,7 +25,6 @@
 
 .prices {
     position: relative;
-    height: 170px;
     width: 500px;
     background-position: center;
     border-radius: 10px;
@@ -24,6 +32,7 @@
 }
 
 .prices:nth-child(1) {
+    height: 160px;
     background-image: url("../img/prices/prices_table.webp");
     background-size: contain;
     display: flex;
@@ -66,6 +75,7 @@
     width: 100%;
     justify-content: space-between;
     border-radius: 5px;
+    transition: all 200ms;
 }
 
 .links-btn>p:first-child {
@@ -78,7 +88,8 @@
 
 .links-btn:hover {
     color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.104);
+    background-color: rgba(185, 93, 13, 0.354);
+    scale: 1.03;
 }
 
 .prices:nth-child(2) {
@@ -87,10 +98,36 @@
     height: 190px;
 }
 
+
 .prices:nth-child(3) {
     background-image: url("../img/prices/further_info_prices.webp");
     background-size: contain;
     height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices>.contact {
+    min-width: 52.4%;
+    min-height: 27.74%;
+    margin-top: 14.27%;
+    margin-left: 0.39%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--color-four);
+    border: 1px solid;
+    border-radius: 1rem;
+    transition: all 200ms;
+}
+
+.prices>.contact:hover {
+    color: #D94E2D;
+    background-color: rgba(55, 55, 55, 0.09);
 }
 
 @media screen and (max-width:516px)  {

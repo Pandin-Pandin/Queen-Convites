@@ -15,17 +15,26 @@
     <header>
         <div class="fake-box" id="home"></div>
         <div class="box-top">
+            <div class="menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
             <div class="links">
-                <a class="home" href="img/7f44ee10c96168a2499bd0f6eabfa524.jpg">Home</a>
+                <div class="close">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <a class="home" href="#home">Home</a>
                 <a class="products" href="#convites">Convites</a>
                 <a class="social" href="#prices">Preços</a>
-                <a class="about">Sobre</a>
+                <a class="about" href="#about">Sobre</a>
             </div>
             <div class="profile"></div>
         </div>
         <div class="logo"></div>
     </header>
-    <main>
+    <main id="convites">
         <p class="titleBtn">Convite Simples<span class="bottom"></span></p>
         <div class="scrollable-container simples">
             <div class="scroll-box">
@@ -41,8 +50,8 @@
                 <div class="img first"></div>
             </div>
         </div>
-        <p class="titleBtn">Convite Interativo<span class="top"></span></p>
-        <div class="scrollable-container oculto interativo">
+        <p class="titleBtn">Convite Interativo<span class="top" ></span></p>
+        <div class="scrollable-container disable interativo">
             <div class="scroll-box">
                 <div class="img second"></div>
                 <div class="img second"></div>
@@ -53,7 +62,7 @@
             </div>
         </div>
         <p class="titleBtn">Convite Animado<span class="top"></span></p>
-        <div class="scrollable-container oculto animado">
+        <div class="scrollable-container disable animado">
             <div class="scroll-box">
                 <video class="video" controls>
                     <source src="vid/d-1.mp4" type="video/mp4">
@@ -67,7 +76,7 @@
             </div>
         </div>
         <p class="titleBtn">Capa<span class="top"></span></p>
-        <div class="scrollable-container oculto capa">
+        <div class="scrollable-container disable capa">
             <div class="scroll-box">
                 <div class="img third"></div>
                 <div class="img third"></div>
@@ -76,7 +85,7 @@
             </div>
         </div>
         <p class="titleBtn">Banner<span class="top"></span></p>
-        <div class="scrollable-container oculto banner">
+        <div class="scrollable-container disable banner">
             <div class="scroll-box">
                 <div class="img four"></div>
                 <div class="img four"></div>
@@ -84,37 +93,55 @@
             </div>
         </div>
     </main>
-    <div class="main-two">
+    <div class="main-two" id="prices">
         <p></p>
         <div class="grid-container">
             <div class="prices">
                 <div class="columns">
-                        <a href="" class="links-btn one">
+                        <a href="https://wa.me/5511917058952?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Convite%20Simples" target="_blank" class="links-btn one">
                             <p>CONVITE SIMPLES</p>
                             <p>R&#36; 16,00</p>
                         </a>
-                        <a href="" class="links-btn one">
+                        <a href="https://wa.me/5511917058952?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Convite%20Interativo" target="_blank" class="links-btn one">
                             <p>CONVITE INTERATIVO</p>
                             <p>R&#36; 20,00</p>
                         </a>
-                        <a href="" class="links-btn one">
+                        <a href="https://wa.me/5511917058952?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Convite%20Animado" target="_blank" class="links-btn one">
                             <p>CONVITE ANIMADO</p>
                             <p>R&#36; 20,00</p>
                         </a>
-                        <a href="" class="links-btn one">
+                        <a href="https://wa.me/5511917058952?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Banner" target="_blank" class="links-btn one">
                             <p>BANNER</p>
                             <p>R&#36; 28,00</p>
                         </a>
-                        <a href="" class="links-btn one">
+                        <a href="https://wa.me/5511917058952?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Capa%20de%20Livro%20/%20Fanfic" target="_blank" class="links-btn one">
                             <p>CAPA LIVRO / FANFIC</p>
                             <p>R&#36; 20,00</p>
                         </a>
                 </div>
             </div>
             <div class="prices"></div>
-            <div class="prices"></div>
+            <div class="prices">
+                <a href="https://wa.me/5511917058952" target="_blank" class="contact">Saiba Mais</a>
+            </div>
         </div>
     </div>
+    <footer id="about">
+        <div class="links-about">
+            <a href="https://pandin.website" target="_blank">Portfolio</a>
+            <a href="https://www.linkedin.com/in/pandin-br/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Pandin-Pandin" target="_blank">GitHub</a>
+        </div>
+        <div class="introdution">
+            Olá! Esse é um website desenvolvido por Pandin!<br>As redes sociais estão ao lado, me contate caso queira o seu próprio!
+        </div>
+        <div class="links-about two">
+            <a href="https://t.me/pandin" target="_blank">Telegram</a>
+            <a href="https://wa.me/5592994801570" target="_blank">Whatsapp</a>
+            <a href="mailto:pandindev@gmail.com" target="_blank">Email</a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
