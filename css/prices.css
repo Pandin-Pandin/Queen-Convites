@@ -121,7 +121,11 @@
     font-weight: 900;
     color: var(--color-four);
     border: 1px solid;
+<<<<<<< HEAD
     border-radius: 1rem;
+=======
+    border-radius: 20px;
+>>>>>>> 74344a56526327575177d824aca05300cc21abb7
     transition: all 200ms;
 }
 
