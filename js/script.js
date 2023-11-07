@@ -15,12 +15,18 @@ $(document).ready(function() {
         $('.menu').addClass('disable');
     });
     
+    $('.close').click(function(event) {
+        event.preventDefault();
+        $('.links').removeClass('show');
+        $('.menu').removeClass('disable');
+    });
+    
     $(document).click(function(event) {
         if (!$(event.target).closest('.links').length && !$(event.target).closest('.menu').length) {
-            $('.links').removeClass('show').addClass('disable');
+            $('.links').removeClass('show');
             $('.menu').removeClass('disable');
         }
-    });      
+    });
 
     $(".titleBtn").click(function() {
         var $titleBtn = $(this);
