@@ -22,7 +22,7 @@ Se você gostou dos convites e panfletos e deseja entrar em contato com a Queen 
 
 ## Instagram
 
-Você também pode acompanhar os trabalhos e novidades de [Nome do Criador de Convites] no Instagram:
+Você também pode acompanhar os trabalhos e novidades de Queen Bee no Instagram:
 
 [![Instagram](https://img.shields.io/badge/Instagram-Follow%20%40queenbee_teen-orange)](https://www.instagram.com/queenbee_teen/)
 
