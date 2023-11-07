@@ -37,6 +37,6 @@ Este projeto foi desenvolvido usando as seguintes tecnologias:
 
 ## Como Contribuir
 
-Se desejar contribuir para o projeto, você pode entrar em contato comigo.
+Se desejar contribuir para o projeto, você pode entrar em contato comigo (pandin).
 
 Obrigado por visitar e apreciar o trabalho de Queen Bee!
